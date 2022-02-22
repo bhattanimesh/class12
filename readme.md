@@ -1,4 +1,5 @@
-'''
+ 
+
     ===========================================================================================
 
     Name:                   Animesh Bhatt
@@ -9,17 +10,18 @@
     Submitted to:           Resp. Sanjay Sharma sir
     For:                    CBSE Term-2 2021-22
     ===========================================================================================
-'''
-'''
-Modules required:
+
+
+    
+    Modules required:
 	1. pickle
 	2. sleep from time
 
-About:
+    About:
 	This efficient "Python Text to Binary file converter program" can convert an ordinary text file to a binary (.dat) 
 	file and can read any Binary file.
 
-Salient Features:
+    Salient Features:
 	> Error handeling for file not found, end of line.
 	> Clean and easily understandable code structure.
 	> Minimum number of statements to reduce the program size and increase the efficiency.
@@ -28,12 +30,13 @@ Salient Features:
 	> Small delay in printing the result to make the output look better and interactive.
 	> No external modules used.
 
-Input format:
+    Input format:
 	File name should be entered with correct file extension.
 
-Use cases for the Program:
+    Use cases for the Program:
 	This "Python Text to Binary file converter program" can be used in offices, schools, colleges, hospitals, airports,
 	railway/metro stations, government institutions, NGOs and any other place where large data is required to store. 
 	These large data can be converted to Binary encoding which will help saving the storage and sharing of such data.
 	The stored data can also be read using the program.
-'''
+
+    
