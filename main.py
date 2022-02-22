@@ -1,21 +1,21 @@
 '''
-    ====================================================================================
+    ===========================================================================================
 
     Name:                   Animesh Bhatt
     Class:                  XII-A
-    CBSE Roll No.:          11698578
+    CBSE Roll No.:          11698578 
     Scholar Number:         9072/10
-    Program Description:    Program to convert .txt files to .dat files and read them.
+    Program Description:    Program to convert .txt files to .dat (binary) files and read them.
     Submitted to:           Resp. Sanjay Sharma sir
-    For:                    CBSE Term-1 
-    ====================================================================================
+    For:                    CBSE Term-2 
+    ===========================================================================================
 '''
 
 #Modules used
 import pickle #for working with binary files
 from time import sleep # To add a pause
 
-#Functions
+#Functions definations
 def convert(filename,newfilename):
     try:
         with open(filename,'r') as F1:
@@ -33,8 +33,8 @@ def read(filename):
     try:
         F1 = open(filename,'rb')
         try:
-            while True: 
-                print('\n', pickle.load(F1))
+            while True:
+                print('========= The contents of the file',filename,'are: \n', pickle.load(F1))
         except EOFError:
             sleep(2)
             print('\n ========= File read successfully! ========= \n')
@@ -47,9 +47,9 @@ def read(filename):
 #Main Program
 
 while True:
-    print('========== Python Text to Binary file converter ==========')
+    print('========== Python Text to Binary file converter program ==========')
     print('1. Convert a Text file to Binary file')
-    print('2. Read Binary file')
+    print('2. Read any Binary file')
     print('3. Exit.')
     ch = input('Enter your choice: 1-3: ')
     
